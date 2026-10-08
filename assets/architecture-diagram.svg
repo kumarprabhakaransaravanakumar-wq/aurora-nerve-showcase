@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 670" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10Z" fill="#40566b"/></marker></defs>
+<rect width="1280" height="670" fill="#ffffff"/>
+<text x="40" y="42" font-size="29" font-weight="700" fill="#14283b">Aurora NERVE | Proposed prediction experiment</text>
+<text x="40" y="76" font-size="20" fill="#53677a">Passive payload. Local measurements in flight; independent evaluation after recovery.</text>
+<rect x="40" y="105" width="1200" height="256" rx="12" fill="#f1f6fb" stroke="#3279aa" stroke-width="2"/>
+<text x="62" y="137" font-size="20" font-weight="700" fill="#24658f">IN FLIGHT | No vehicle-state feed required for the primary experiment</text>
+<rect x="64" y="189" width="156" height="104" rx="8" fill="white" stroke="#40566b" stroke-width="1.5"/>
+<text x="142" y="222" font-size="21" text-anchor="middle" font-weight="700" fill="#14283b">Local gyro</text>
+<text x="142" y="250" font-size="19" text-anchor="middle" fill="#53677a">past readings</text>
+<text x="142" y="277" font-size="19" text-anchor="middle" fill="#53677a">and timestamps</text>
+<rect x="254" y="189" width="180" height="104" rx="8" fill="white" stroke="#40566b" stroke-width="1.5"/>
+<text x="344" y="222" font-size="21" text-anchor="middle" font-weight="700" fill="#14283b">Acquisition</text>
+<text x="344" y="250" font-size="19" text-anchor="middle" fill="#53677a">units, frame, time</text>
+<text x="344" y="277" font-size="19" text-anchor="middle" fill="#53677a">validity and gaps</text>
+<rect x="474" y="163" width="236" height="68" rx="8" fill="white" stroke="#40566b" stroke-width="1.5"/>
+<text x="592" y="193" font-size="21" text-anchor="middle" font-weight="700" fill="#14283b">Causal baselines</text>
+<text x="592" y="217" font-size="18" text-anchor="middle" fill="#53677a">persistence, filtered, trend</text>
+<rect x="474" y="247" width="236" height="68" rx="8" fill="white" stroke="#3279aa" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="592" y="276" font-size="21" text-anchor="middle" font-weight="700" fill="#24658f">Learned predictor</text>
+<text x="592" y="300" font-size="18" text-anchor="middle" fill="#53677a">proposed GRU correction</text>
+<rect x="750" y="189" width="202" height="104" rx="8" fill="white" stroke="#40566b" stroke-width="1.5"/>
+<text x="851" y="221" font-size="20" text-anchor="middle" font-weight="700" fill="#14283b">Forecast checks</text>
+<text x="851" y="249" font-size="19" text-anchor="middle" fill="#53677a">validity, uncertainty</text>
+<text x="851" y="277" font-size="19" text-anchor="middle" fill="#53677a">and refusal reasons</text>
+<rect x="992" y="189" width="222" height="104" rx="8" fill="white" stroke="#40566b" stroke-width="1.5"/>
+<text x="1103" y="221" font-size="21" text-anchor="middle" font-weight="700" fill="#14283b">Local recorder</text>
+<text x="1103" y="249" font-size="19" text-anchor="middle" fill="#53677a">data, issued forecasts</text>
+<text x="1103" y="277" font-size="19" text-anchor="middle" fill="#53677a">refusals and timing</text>
+<g stroke="#40566b" stroke-width="2" fill="none" marker-end="url(#a)">
+<path d="M220 241 H248"/><path d="M434 241 H451 V197 H467"/><path d="M451 241 V281 H467"/>
+<path d="M710 197 H729 V224 H743"/><path d="M710 281 H729 V256 H743"/><path d="M952 241 H985"/>
+</g>
+<text x="63" y="342" font-size="19" fill="#53677a">Primary comparison: 0.375 s. Secondary: 0.125 / 1.0 s. Trained flight path and calibration remain planned.</text>
+<text x="42" y="398" font-size="20" font-weight="700" fill="#9b3935">NO ACTUATOR CONNECTION | NO VEHICLE COMMAND OUTPUT</text>
+<rect x="40" y="427" width="1200" height="171" rx="12" fill="#f0f7f3" stroke="#44836b" stroke-width="2"/>
+<text x="62" y="458" font-size="20" font-weight="700" fill="#346f58">AFTER FLIGHT | Delivered references never enter the onboard predictor</text>
+<rect x="64" y="480" width="322" height="92" rx="8" fill="white" stroke="#40566b" stroke-width="1.5"/>
+<text x="225" y="509" font-size="21" text-anchor="middle" font-weight="700" fill="#14283b">Recovered payload records</text>
+<text x="225" y="536" font-size="18" text-anchor="middle" fill="#53677a">+ Dawn reference for context</text>
+<text x="225" y="558" font-size="18" text-anchor="middle" fill="#53677a">and conditional attitude scoring</text>
+<rect x="449" y="480" width="321" height="92" rx="8" fill="white" stroke="#40566b" stroke-width="1.5"/>
+<text x="609" y="513" font-size="21" text-anchor="middle" font-weight="700" fill="#14283b">Independent evaluation</text>
+<text x="609" y="545" font-size="19" text-anchor="middle" fill="#53677a">time association and scoring</text>
+<rect x="833" y="480" width="381" height="92" rx="8" fill="white" stroke="#40566b" stroke-width="1.5"/>
+<text x="1023" y="512" font-size="21" text-anchor="middle" font-weight="700" fill="#14283b">Reproducible comparison report</text>
+<text x="1023" y="545" font-size="19" text-anchor="middle" fill="#53677a">error, lookahead, intervals, availability</text>
+<g stroke="#40566b" stroke-width="2" fill="none" marker-end="url(#a)"><path d="M386 526 H442"/><path d="M770 526 H826"/></g>
+<text x="40" y="631" font-size="18" fill="#53677a">Ground commissioning first. Recovered, repeat flights compare identical frozen models and calibration.</text>
+<text x="40" y="655" font-size="18" fill="#53677a">Same-instrument gyro prediction is distinct from independent vehicle-state accuracy.</text>
+</svg>

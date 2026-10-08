@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you reference this work, please cite it as below."
+title: "Aurora NERVE: Learned Motion Prediction in Supersonic Flight"
+type: software
+authors:
+  - family-names: "Prabhakaran Saravanakumar"
+    given-names: "Kumar"
+    affiliation: "Independent researcher, Canada"
+date-released: "2026-10-08"
+license: CC-BY-NC-ND-4.0
+repository-code: "https://github.com/kumarprabhakaransaravanakumar-wq/aurora-nerve-showcase"
+abstract: >-
+  A research programme on trustworthy learned prediction for high-speed flight,
+  proposed as a passive, shadow-mode suborbital spaceplane payload. It compares
+  learned and conventional gyro forecasts at 0.125-1 s horizons with frozen,
+  pre-recorded predictions, and a fail-closed runtime-assurance architecture
+  for bounded model-based reinforcement learning.
+keywords:
+  - learned motion prediction
+  - supersonic flight
+  - runtime assurance
+  - model-based reinforcement learning
+  - world models
+  - flight-test instrumentation
+  - suborbital spaceplane
