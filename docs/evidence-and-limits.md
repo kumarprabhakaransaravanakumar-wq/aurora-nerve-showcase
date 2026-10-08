@@ -1,5 +1,7 @@
 # Evidence and limits
 
+*Part of the [Aurora NERVE overview](../README.md): learned motion prediction for the Aurora spaceplane.*
+
 This project treats "what we can show" and "what we hope to show" as different
 categories and keeps them apart.
 

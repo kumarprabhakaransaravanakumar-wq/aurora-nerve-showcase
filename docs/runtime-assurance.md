@@ -1,5 +1,7 @@
 # Runtime assurance for learned flight software
 
+*Part of the [Aurora NERVE overview](../README.md): learned motion prediction for the Aurora spaceplane.*
+
 Aurora NERVE's software principle is that **learned output is never trusted
 without a deterministic gate.** Everything runs in shadow mode. The system
 records what it *would* have commanded and has no actuator connection.

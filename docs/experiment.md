@@ -1,5 +1,7 @@
 # Study design: learned gyro prediction in flight
 
+*Part of the [Aurora NERVE overview](../README.md): learned motion prediction for the Aurora spaceplane.*
+
 ## Aim
 
 Measure how far ahead a learned model can predict measured rotational motion
